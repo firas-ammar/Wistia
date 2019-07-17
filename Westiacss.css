@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0
+} 
+.side1{
+    display: flex;
+    align-items: center;
+}
+.side2{
+    display: flex;
+    align-content: stretch;
+}
+header li{
+    list-style-type: none;
+    margin: 30px;
+}
+header li a{
+    white-space: nowrap;
+    color: gray
+}
+.side2 li button{
+    width: 130px ;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.barside {
+    display: flex; 
+    align-items: center;
+    border: none;
+    justify-content: space-around;
+    background-color: white;
+    height: 60px;
+}
+
+#login-btn{
+color: black;
+}
+#get-started{
+    color:white;
+}
+#login-btn:hover{
+    transform: translateY(-3px);
+    transition: 0.1s all;
+    cursor: pointer;
+}
+#get-started:hover{
+    transform: translateY(-3px);
+    transition: 0.1s all;
+    cursor: pointer;
+}
+.barside a{
+    text-decoration: none;
+
+}
+#barside{
+    background:#c896a5;
+}
+#barside:hover{
+    background-color: white;
+}
+                    /*element de la page n1 */
+
+#page{
+    width: 100vw ;
+    height: 50vw;
+    border: none;
+    background:#c896a5;
+}
+.presentation{
+    display: flex; 
+    flex-direction: column;
+justify-content: space-between;
+list-style-type: none;
+padding-top: 250px;
+padding-left: 120px;
+
+}
+
+.presentation li button{
+    width: 220px ;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:sans-serif;
+    line-height: 50px;
+    font-weight: bold;
+}
+.presentation a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    font-family:sans-serif;
+    line-height: 50px;
+    
+}
+#watch{
+color: black;
+}
+#watch:hover{
+    transform: translateY(-3px);
+    transition: 0.1s all;
+    cursor: pointer;
+}
+#wistmp4{
+    margin-left: 500px;
+    margin-top: -500px;
+}
+                  /*element de la page n2 */
+#explore{
+    display: flex;
+    margin-top: -50px;
+    font-family: 'Times New Roman', Times, serif,;
+   
+}
+#hosting{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 210, 74);
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    width: 450px;
+    padding: 20px;
+
+}
+#free{
+    width: 220px ;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(254, 210, 74);
+}
+#soapbox{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(81, 194, 159);
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    width: 450px;
+    padding: 20px;
+}
+#freesoap{
+    width: 220px ;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(81, 194, 159);
+}
+#learn{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(62, 169, 245);
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    width: 470px;
+    padding: 20px;
+}
+#learn-bt{
+    width: 220px ;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(62, 169, 245);
+}
+.explore li{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.explore h1{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family:serif;  
+}
+
+#learn-bt:hover{
+    transform: translateY(-3px);
+    transition: 0.1s all;
+    cursor: pointer;
+    background-color: white;
+}
+#freesoap:hover{
+    transform: translateY(-3px);
+    transition: 0.1s all;
+    cursor: pointer;
+    background-color: white;
+}
+#free:hover{
+    transform: translateY(-3px);
+    transition: 0.1s all;
+    cursor: pointer;
+    background: white;
+}
+            /*element de la page n3 */
+
+#partner{
+    display: flex;
+    align-content: space-around;
+    margin-top: 100px;
+    background-color: white;
+    list-style-type: none;
+    margin-left: 100px;
+}
+.partner a{
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    line-height: 2;
+    color: gray;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+}
+.partner img{
+    margin: 20px
+}
+#registration{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    background-color: white; 
+    margin-top: 100px;
+    margin-left: 90px;
+}
+#series{
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 457px;
+}
+#channels{
+    list-style-type: none;
+    text-decoration: none;
+    width: 457px;
+}
+#spot{
+    list-style-type: none;
+    text-decoration: none;
+    width: 457px;
+
+}
+.registration h1{
+    font-size: 20px;   
+}
+#terms{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #EFEFEF;
+    padding: 25px 40px;
+    border: none;
+}
+#folow{
+    border-right: 1px solid gray;
+padding-right: 50px;
+color: white;
+line-height: 50px;
+
+}
+.bapage{
+    display: flex;
+    align-content: space-around;
+    background-color: rgb(42, 45, 53);
+    margin-top: 1125px;
+    padding: 100px 100px;
+    border: none;
+
+}
+#account{
+    display: flex;
+    align-content: space-around;
+    line-height: 30px;
+}
+#marke{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50px;
+}
+#soapbx{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50px;
+
+}
+#company{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50px;
+}
+#support{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50px;
+}
+#lien{
+    color:rgb(62, 169, 245);;
+}
+#serv{
+    color: #B2B9C1;
+}
+.account h1{
+    font-size: 15px;  
+    color: grey
+}
+#folow a{
+    text-decoration: none;
+    list-style: none;
+color:#56BE8E;
+}
+#folow h2{
+    color: white;
+    font-size: 35px;
+}
+#instal{
+    text-decoration: none;
+    list-style: none;
+    color: red;
+}
+#cree{
+    text-decoration: none;
+    list-style: none;
+    color: blue;
+}
+.account a{
+    text-decoration: none;
+    list-style: none;
+    color: azure;
+}
+#police{
+    text-align: center;
+    background-color: rgb(42, 45, 53);
+    padding: 25px 40px;
+    border: none;
+    color: #B2B9C1;
+   
+}
+#privacy{
+    color: #B2B9C1;
+    
+}
+#privacy:hover{
+    color: green;
+}
